@@ -9,14 +9,28 @@
 #import "GravityBehaviorViewController.h"
 
 @interface GravityBehaviorViewController ()
-
+{
+    UIDynamicAnimator * animator;
+    UIImageView * frogImageView;
+}
 @end
 
 @implementation GravityBehaviorViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    frogImageView = [[UIImageView alloc] initWithFrame:CGRectMake(20, 300, 20, 20)];
+    frogImageView.backgroundColor = [UIColor redColor];
+    frogImageView.userInteractionEnabled = YES;
+    [self.view addSubview:frogImageView];
+    animator = [[UIDynamicAnimator alloc] initWithReferenceView:self.view];
+    //重力
+    UIGravityBehavior * gravityBehavior = [[UIGravityBehavior alloc] initWithItems:@[frogImageView]];
+    //改变方向
+    [gravityBehavior setAngle:0 magnitude:0.1];
+    [animator addBehavior:gravityBehavior];
+
 }
 
 - (void)didReceiveMemoryWarning {

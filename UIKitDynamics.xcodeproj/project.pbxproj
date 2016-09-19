@@ -15,6 +15,8 @@
 		49587E971D8E22F600895B69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49587E951D8E22F600895B69 /* LaunchScreen.storyboard */; };
 		49587EA21D8E22F600895B69 /* UIKitDynamicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49587EA11D8E22F600895B69 /* UIKitDynamicsTests.m */; };
 		49587EAD1D8E22F600895B69 /* UIKitDynamicsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49587EAC1D8E22F600895B69 /* UIKitDynamicsUITests.m */; };
+		49587EBC1D8E633C00895B69 /* GravityBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49587EBB1D8E633C00895B69 /* GravityBehaviorViewController.m */; };
+		49587EBF1D8E657400895B69 /* CollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49587EBE1D8E657400895B69 /* CollisionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		49587EA81D8E22F600895B69 /* UIKitDynamicsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitDynamicsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		49587EAC1D8E22F600895B69 /* UIKitDynamicsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIKitDynamicsUITests.m; sourceTree = "<group>"; };
 		49587EAE1D8E22F600895B69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49587EBA1D8E633C00895B69 /* GravityBehaviorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityBehaviorViewController.h; sourceTree = "<group>"; };
+		49587EBB1D8E633C00895B69 /* GravityBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityBehaviorViewController.m; sourceTree = "<group>"; };
+		49587EBD1D8E657400895B69 /* CollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionViewController.h; sourceTree = "<group>"; };
+		49587EBE1D8E657400895B69 /* CollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				49587E8B1D8E22F600895B69 /* AppDelegate.m */,
 				49587E8D1D8E22F600895B69 /* ViewController.h */,
 				49587E8E1D8E22F600895B69 /* ViewController.m */,
+				49587EBA1D8E633C00895B69 /* GravityBehaviorViewController.h */,
+				49587EBB1D8E633C00895B69 /* GravityBehaviorViewController.m */,
+				49587EBD1D8E657400895B69 /* CollisionViewController.h */,
+				49587EBE1D8E657400895B69 /* CollisionViewController.m */,
 				49587E901D8E22F600895B69 /* Main.storyboard */,
 				49587E931D8E22F600895B69 /* Assets.xcassets */,
 				49587E951D8E22F600895B69 /* LaunchScreen.storyboard */,
@@ -271,8 +281,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				49587E8F1D8E22F600895B69 /* ViewController.m in Sources */,
+				49587EBF1D8E657400895B69 /* CollisionViewController.m in Sources */,
 				49587E8C1D8E22F600895B69 /* AppDelegate.m in Sources */,
 				49587E891D8E22F600895B69 /* main.m in Sources */,
+				49587EBC1D8E633C00895B69 /* GravityBehaviorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
