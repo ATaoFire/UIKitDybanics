@@ -38,7 +38,7 @@
     [gravityBehavior setAngle:0 magnitude:0.1];
     
     UICollisionBehavior * collisionBehavior = [[UICollisionBehavior alloc] initWithItems:@[frogImageView, dragonImageView]];
-    //。还可以设置NSBezierPath或者两点之间的线段，其中前者可以使用addBoundaryWithIdentifier: forPath:
+    //还可以设置NSBezierPath或者两点之间的线段，其中前者可以使用addBoundaryWithIdentifier: forPath:
     /**
      *  要是想要物体发生碰撞，必须要定义边界translatesReferenceBoundsIntoBoundary属性
      *  还可以设置NSBezierPath或者两点之间的线段，其中前者可以使用addBoundaryWithIdentifier: forPath:后者可以使用

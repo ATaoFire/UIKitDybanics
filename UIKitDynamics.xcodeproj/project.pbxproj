@@ -17,6 +17,8 @@
 		49587EAD1D8E22F600895B69 /* UIKitDynamicsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49587EAC1D8E22F600895B69 /* UIKitDynamicsUITests.m */; };
 		49587EBC1D8E633C00895B69 /* GravityBehaviorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49587EBB1D8E633C00895B69 /* GravityBehaviorViewController.m */; };
 		49587EBF1D8E657400895B69 /* CollisionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49587EBE1D8E657400895B69 /* CollisionViewController.m */; };
+		49C3F7C71D8F8BCD0002D3DA /* AttachmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49C3F7C61D8F8BCD0002D3DA /* AttachmentViewController.m */; };
+		49E007091D8FB31F00A2E1D6 /* SnapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49E007081D8FB31F00A2E1D6 /* SnapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,10 @@
 		49587EBB1D8E633C00895B69 /* GravityBehaviorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityBehaviorViewController.m; sourceTree = "<group>"; };
 		49587EBD1D8E657400895B69 /* CollisionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionViewController.h; sourceTree = "<group>"; };
 		49587EBE1D8E657400895B69 /* CollisionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionViewController.m; sourceTree = "<group>"; };
+		49C3F7C51D8F8BCD0002D3DA /* AttachmentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttachmentViewController.h; sourceTree = "<group>"; };
+		49C3F7C61D8F8BCD0002D3DA /* AttachmentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttachmentViewController.m; sourceTree = "<group>"; };
+		49E007071D8FB31F00A2E1D6 /* SnapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapViewController.h; sourceTree = "<group>"; };
+		49E007081D8FB31F00A2E1D6 /* SnapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,10 @@
 				49587EBB1D8E633C00895B69 /* GravityBehaviorViewController.m */,
 				49587EBD1D8E657400895B69 /* CollisionViewController.h */,
 				49587EBE1D8E657400895B69 /* CollisionViewController.m */,
+				49C3F7C51D8F8BCD0002D3DA /* AttachmentViewController.h */,
+				49C3F7C61D8F8BCD0002D3DA /* AttachmentViewController.m */,
+				49E007071D8FB31F00A2E1D6 /* SnapViewController.h */,
+				49E007081D8FB31F00A2E1D6 /* SnapViewController.m */,
 				49587E901D8E22F600895B69 /* Main.storyboard */,
 				49587E931D8E22F600895B69 /* Assets.xcassets */,
 				49587E951D8E22F600895B69 /* LaunchScreen.storyboard */,
@@ -281,9 +291,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				49587E8F1D8E22F600895B69 /* ViewController.m in Sources */,
+				49C3F7C71D8F8BCD0002D3DA /* AttachmentViewController.m in Sources */,
 				49587EBF1D8E657400895B69 /* CollisionViewController.m in Sources */,
 				49587E8C1D8E22F600895B69 /* AppDelegate.m in Sources */,
 				49587E891D8E22F600895B69 /* main.m in Sources */,
+				49E007091D8FB31F00A2E1D6 /* SnapViewController.m in Sources */,
 				49587EBC1D8E633C00895B69 /* GravityBehaviorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +522,7 @@
 				49587EB31D8E22F600895B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49587EB41D8E22F600895B69 /* Build configuration list for PBXNativeTarget "UIKitDynamicsTests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +531,7 @@
 				49587EB61D8E22F600895B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		49587EB71D8E22F600895B69 /* Build configuration list for PBXNativeTarget "UIKitDynamicsUITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +540,7 @@
 				49587EB91D8E22F600895B69 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

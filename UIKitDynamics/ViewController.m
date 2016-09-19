@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "GravityBehaviorViewController.h"
-#import "CollisionViewController.h"
+#import "GravityBehaviorViewController.h"//重力
+#import "CollisionViewController.h"//碰撞
+#import "AttachmentViewController.h"//连接
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 {
     NSMutableArray * dataArray;
@@ -20,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    dataArray = [NSMutableArray arrayWithObjects:@"重力", @"碰撞",  nil];
+    dataArray = [NSMutableArray arrayWithObjects:@"重力", @"碰撞", @"连接",  nil];
     UITableView * tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height) style:UITableViewStylePlain];
     tableView.delegate = self;
     tableView.dataSource = self;
@@ -49,6 +50,11 @@
     if (indexPath.row == 1) {
         CollisionViewController * collisionVC = [[CollisionViewController alloc] init];
         [self.navigationController pushViewController:collisionVC animated:YES];
+        
+    }
+    if (indexPath.row == 2) {
+        AttachmentViewController * attVC = [[AttachmentViewController alloc] init];
+        [self.navigationController pushViewController:attVC animated:YES];
         
     }
     
